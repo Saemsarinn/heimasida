@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic Page - Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Sæmundur Hafsteinsson</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Forsíða</a></li>
+							<!-- <li><a href="generic.html">Generic Page</a></li>
+							<li><a href="elements.html">Elements Reference</a></li> -->
+							<li><a href="ferilskra.html">Ferilskrá</a></li>
+							<li><a href="CV.html">Verkefni 1</a></li>
+                            <li class="active"><a href="verkefni2.html">Verkefni 2</a></li>
+
+						</ul>
+						<ul class="icons">
+							<li><a href="https://twitter.com/smudurk" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.instagram.com/saemztheman/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/Saemsarinn" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">24. Jan 2022</span>
+									<h1>Vefsíðugerð<br />
+									með HTML</h1>
+									<p> </p>
+								</header>
+								<!--<div class="image main"><img src="images/pic01.jpg" alt="" /></div>-->
+								<h2>Undirbúningur</h2>
+								<p>Við upphaf verkefnisins hafði ég aldrei áður unnið með html svo fyrsta skrefið var að horfa á eftirfarandi myndbönd sem Hafliði birti.</p>
+								<ul class="actions">
+									<li><a href="https://www.youtube.com/playlist?list=PLU4NWxEpJJumoJghcC5V3rjv0_VHE7IQr" class="button large">Myndband frá Hafliða</a></li>
+								</ul>
+								<h2>Vinnu umhverfi</h2>
+								<p>Því næst bjó ég til Github aðgang og hlóð niður Brackets og Git. Eftir smá ráðfæringar við aðila sem hafði áður unnið með html ákvað ég að hlaða niður Visual Studio code og nota það í stað Brackets. 
+									Það sem heillaði mig sérstaklega við Visual Studio code er hversu auðvelt er að prufukeyra síðuna með því að smella á “go live” hnappinn niðri í hægra horninu. Þegar síðan er opin í vafra á local svæði á tölvunni þá er hægt að sjá breytingar jafnóðum með því að vista með skipuninni ctrl+s.</p>
+								<p><span class="image left"><img src="images/golive.png" alt="" /></span>Í ljósi reynsluleysis á html ákvað ég að velja sniðmát af síðunni <a href="https://html5up.net/">html5up.net.
+								</a> Sniðmátið sem varð fyrir valinu heitir Massively. Helsti kosturinn við Massively er að mjög greina góð “elements síða” fylgir þ.e sýnidæmi hvernig skal beita ýmsum trikksum við textagerð sem og sníða myndir og fleira. Eftir að hafa hlaðið Massively zip-skránni niður og vistað hana á viðeigandi svæði var hægt að hefjast handa.</p>
+								<h2>Stilla upp heimasíðunni</h2>
+								<p><span class="image left"><img src="images/frett.PNG" alt="" /></span>Fyrsta verk eftir að hafa opnað kóðan í visual studio var að google-a sýnidæmi um hvernig best sé að vinna með þetta sniðmát leitin bar lítinn árangur og eina sem ég gat fundið var eitt 
+									<a href="https://www.youtube.com/watch?v=Wm6CUkswsNw">myndskeið
+								</a> sem hljálpaði til við að stilla upp forsíðunni. Forsíðan á Massively er byggð upp eins og frétta/bloggsíða mér fannst sniðugt að nýta mér þennan eiginleika með því að nota forsíðuna í þeim tilgangi að birta hvað hefur verið á döfinni inn á heimasíðunni minni og láta þar fylgja mynd og örskýring á því. Þannig geta áhugasamir ýtt á hnapp sem flytur viðkomandi á svæðið þar sem fulla umfjöllun er að finna. Hér að neðan má sjá dæmi um tilkynningu. Þar sem hnappurinn “Sjá verkefni 1” leiðir mann síðan á síðuna sem þú ert að lesa núna.</p>
+								<p>Til að öðlast dýpri skilning á html horfði ég á <a href="https://www.youtube.com/watch?v=Wm6CUkswsNw ">youtube myndskeið</a>, eftir það var mér ljóst að html kóðunin væri gott sem sú sama fyrir mismunandi vefsíður og aðal munurinn lægi í css. Eftir þetta myndband hafðist ég handa við að stilla upp heimasíðunni í heild sinni. Massively sniðmátið kom með þremur header flipum sem sjást á myndinni hér að neðan. Þar sem “THIS IS MASSIVELY” var sniðmát af forsíðunni og  “GENERIC POST” dæmi að sniðmáti fyrir greinaskrif. </p>
+								<div class="image main"><img src="images/headerinn.PNG" alt="" /></div>
+								<p>Ég breytti nafninu á forsíðu flipanum og þurfti að bæta við tveimur header flipum og gekk það snuðrulaust fyrir sig. Á myndinni hér að neðan sést hvernig kóðinn fyrir það lítur út en neðstu tveimur línunum var semsagt bætt við.</p>
+								<div class="image main"><img src="images/headkodi.PNG" alt="" /></div>
+								<p>Það er hinsvegar eitt sem ég lenti í veseni með og það er að passa setja class=”active” í línuna fyrir framan html skránna sem kóðinn er í. Ég vil kenna lesblindu minni um hversu óþarflega langan tíma það tók mig að finna fram úr þessu, þar sem ég einfaldlega tók ekki eftir þessu fyrr en eftir að hafa lesið kóðann allan í bak og fyrir tvisvar til þrisvar sinnum.
+									Þá var uppstilling síðunnar svo gott sem komin, ég ákvað að fjarlæga samskiptagátt sem sjá má á mynd hér að neðan. Það var gert einfaldlega með því að eyða út þeim kóðabút.  Þessi samskipta gátt var innbyggð í Massively sniðmátið en þar sem ég hafði ekki aðgang að sjávirkri móttöku skilaboða ákvað ég að fjarlægja samskiptagáttina en hélt eftir upplýsingum um hvernig mætti komast í beint samband við mig.
+									</p>
+								<div class="image main"><img src="images/samskipt.PNG" alt="" /></div>
+								<p>Nú þegar uppbygging síðunnar var tilbúin átti bara eftir að setja inn textann og myndir. Það var gert með hjálp Elements Reference. </p>
+
+								<h2>Hlaða heimasíðunni upp með Git bash</h2>
+								<p>Fyrsta skref í að hlaða síðunni upp var að fara inn á github og búa til opinbert repositorie og afrita kóðunar bútinn sem birtist. Því næst fór ég inná heimasvæðið í tölvunni minni og fann READ ME skránna sem fylgir html og css kóðunum ég hægri smellti á skránna og valdi að opna hana með git bash. </p>
+								<div class="image main"><img src="images/screenshot.png" alt="" /></div>
+								<p>Þegar git bash var búið að opnast límdi ég kóðunarbútinn sem ég fékk af github þangað, þegar því var lokið kom upp gluggi til að skrá sig inn á github þegar því var lokið kom upp eftirfarandi mynd sem lét það í ljós að tengingu á milli github og gitbash hefði verið náð. Þar með var síðan komin í loftið og aðgengileg.</p>
+								<div class="image main"><img src="images/authenti.PNG" alt="" /></div>
+							</section>
+
+					</div>
+
+				
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html> 

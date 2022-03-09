@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic Page - Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Sæmundur Hafsteinsson</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Forsíða</a></li>
+							<!--<li><a href="generic.html">Generic Page</a></li>
+							<li><a href="elements.html">Elements Reference</a></li> -->
+							<li><a href="ferilskra.html">Ferilskrá</a></li>
+							<li><a href="CV.html">Verkefni 1</a></li>
+							<li><a href="verkefni2.html">Verkefni 2</a></li>
+                            <li class="active"><a href="verkefni3.html">Verkefni 3</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://twitter.com/smudurk" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.instagram.com/saemztheman/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/Saemsarinn" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">7. Mars 2022</span>
+									<h1>3D prentun og 3D skönnun</h1>
+									<p> </p>
+								</header>
+								<!--<div class="image main"><img src="images/pic01.jpg" alt="" /></div>-->
+								<h2>3D prentun</h2>
+								<p>Vinna við þetta verkefni stóð töluvert tæpar en við verkefni 2 þannig sem betur fer gekk þetta vel. Ég hafði ákveðið þegar Hafliði kynnti verkefnið í byrjun annarinnar að hanna og prenta Y-samtengi til að tengja tvær 25mm kaldavatns lagnir yfir í eina 32mm til að lofttæma .</p>
+                                <h2>Hönnunin</h2>
+                                <p>Ég hófst handa við að teikna hlutinn 1.mars. Í fyrstu adrennu teiknaði ég samtengið alveg frá grunni með því að extrude-a þrjá sívalinga inn í hvor aðra en lenti í erfiðum með að sameina þá á góðan máta og hugsaði að það hlyti að vera til betri leið.
+                                    Eftir smá google leit fann ég þetta <a href="https://www.youtube.com/watch?v=XPHfZZfWoDc"> myndband</a> sem sýnir tvær mismunandi leiðir til að búa til y-stykki. Ég prufaði fyrst seinni aðferðina en sá fljótt að það myndi ekki ganga upp, sú aðferð snýst um að nota það sem heitir create form í fusion og tengja síðan saman punkta á þremur sívalingum.
+                                    Þannig ég snéri mér að fyrri aðferðinni en sú aðferð snýr að því að teikna línur og nota þær sem nokkursskonar spor til að nota sweep í fusion til að mynda sívalinga eftir sporinu.
+                                </p>
+                                <p>Fyrsta skrefið var að teikna þrjá hringi og tengja þá saman með línum eins og sést hér að neðan</p>
+                                <div class="image main"><img src="images/sketch.PNG" alt="" /></div>
+                                <p>Næst notaði ég sweep sem er að finna undir create í fusion á allar línunar og valdi alltaf join þangað til mynd var komin á stykkið</p>
+                                <div class="image main"><img src="images/sweep.PNG" alt="" /></div>
+								<p>Þegar því var lokið notaði ég extrude með cut valið til að tengja betur saman samskeytin</p>
+                                <div class="image main"><img src="images/excut.PNG" alt="" /></div>
+                                <p>Það eina sem var eftir var að búa til skrúfgang, ég fann <a href="https://www.youtube.com/watch?v=EajLsJ78TEk"> myndband</a> sem sýndi nákvæmlega hvernig það er gert, það er með því að fara í create velja thread og yfirborð. 
+                                Skrúfgangurinn utan á staka endanum var valinn 32mm ISO metric profile utan á og á hinum tveim var skrúfgangurinn 25mm ISO metric profile innaná stútnum. Pælinging með þessum skrúfgangi er að samtengin sem sett væru uppá væru þétt með hamp og mak. </p>
+                                <div class="image main"><img src="images/threadallt.png" alt="" /></div>
+                                <h2>3D prentunin</h2>
+                                <p>Daginn eftir fór ég uppí VR3 til að prenta hlutinn og sú vinna gekk prýðilega. Ég vistaði hlutinn sem STL skrá og færði hana yfir á sd kortið sem fer síðan í 3D prentarann. 
+                                    Prentarinn sem ég valdi var Prusa MK3+ en hann var laus svo það var hentugt. Ég valdi nákvæmnina sem 0.20mm og infill 15%. Hafliði benti mér á að ég þyrfti að setja stuðning undir svo hluturinn gæti staðið örugglega í prentaranum og aðstoðaði mig við að gera það. 
+                                    Stuðningurinn var settur með því að velja Brim og Paint on supports og síðan var teiknað þar sem stuðningurinn átti að vera eins og sést á myndinni hér að neðan. Þegar því var lokið tók ég SD kortið og setti það í prentarann valdi þar svartann þráð og setti hann í gang. 
+                                    Prentunar tíminn var um 3,5 tímar því fór ég bara heim og sótti hlutinn daginn eftir.
+                                     </p>
+                                <div class="image main"><img src="images/brim.png" alt="" /></div>
+                                <h2>Útkoman</h2>
+                                <p>Hluturinn kom vel út fyrir utan það að skrúfgangurinn prentaðist ekki. Án þess að vita nákvæmlega ástæðuna fyrir því er mín kenning að ég hafi klikkað á að hafa nákvæmni stillinguna á prentaranum ekki nóg og nákvæma.
+                                    Formið kom vel út eins og sést á myndinni hér að neðan og gaman að sjá raungerðan hlut sem manni hefði ekki órað fyrir að geta búið til án tækni eins og 3D prentara.
+
+                                </p>
+                                <div class="image main"><img src="images/y.jpg" alt="" /></div>
+
+                                <h2>3D skönnun</h2>
+                                <p>Ég ráðfærði mig við samnemanda og hlóð niður appi sem heitir <a href="https://apps.apple.com/us/app/polycam-lidar-3d-scanner/id1532482376"> Polycam.</a> 
+                                Ég valdi styttu heima hjá mér og skannaði hana með því að stilla henni á stand og gekk svo í smáum skrefum í kringum hlutinn og tók 48 myndir í appinu og ýtti svo á process. Þegar appið var búið að vinna myndirnar birtist hún svona.</p>
+                                <div class="image main"><img src="images/3dkrobb.jpg" alt="" /></div>
+                                <p>Með því að draga kassann á myndinni hér að ofan til var hægt að taka út það sem maður vildi ekki skanna og kom endaleg útkoma á skönnuninni út svona</p>
+                                
+                                <div class="box alt">
+                                    <div class="row gtr-50 gtr-uniform">
+                                        <div class="col-4"><span class="image fit"><img src="images/stytta1.jpg" alt="" /></span></div>
+                                        <div class="col-4"><span class="image fit"><img src="images/stytta2.jpg" alt="" /></span></div>
+                                        <div class="col-4"><span class="image fit"><img src="images/stytta3.jpg" alt="" /></span></div>
+                                    </div>
+                                </div>
+							</section>
+
+					</div>
+
+				
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html> 
